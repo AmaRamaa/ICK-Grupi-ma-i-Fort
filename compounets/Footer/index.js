@@ -7,7 +7,6 @@ class UserComponent extends HTMLElement {
         const points = this.getAttribute('points')
         this.innerHTML = `
         <link rel="stylesheet" href="../compounets/Footer/index.css">
-        
             <footer class="footer">
         <div class="container">
             <img src="../imgs/Container.png" class="containerIMG1">
@@ -17,7 +16,7 @@ class UserComponent extends HTMLElement {
                     <br>
                     <p>FOOD AND RESTAURANT</p>
                     <br>
-                    <h3>Tuesday-Saturday:12:00pm-23:00pm</h3>
+                    <h3>Tuesday-Saturday:12:00pm-23:00pm</h3>   
                     <br>
                     <h3>Closed on Sunday</h3>
                     <br>
