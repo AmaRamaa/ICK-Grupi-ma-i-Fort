@@ -1,0 +1,149 @@
+@font-face {
+  font-family: "MyCustomFont";
+  src: url("https://online-fonts.com/fonts/pizza-hut-font-2020");
+}
+
+* {
+  font-family: "MyCustomFont", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: auto;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  justify-content: space-around;
+}
+
+.containerIMG1 {
+  margin-left: -6.3svw;
+}
+
+.containerIMG2 {
+  margin-right: -6.3svw;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 15px;
+}
+
+ul {
+  list-style: none;
+
+}
+
+.footer {
+  background-color: #F5F8FD;
+  padding: 70px 0;
+}
+
+.footer-col {
+  width: 25%;
+  padding: 0 15px;
+}
+
+.footer-col {
+  font-size: 18px;
+  color: black;
+  text-transform: capitalize;
+  margin-bottom: 30px;
+
+}
+
+.footer-col1 {
+  background-color: #EE3A43;
+  size: 50%;
+  border-radius: 15px;
+  padding: 25px;
+  height: 280px;
+  width: 350px;
+
+}
+
+.button {
+  background-color: #ee3a43;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 15px;
+}
+
+.emailAddress {
+  background-color: white;
+  border: none;
+  color: back;
+  padding: 16px 35px;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 12px;
+  width: 270px;
+}
+
+.footer-col1 h3 {
+  color: white;
+}
+
+.footer-col1 p {
+  color: white;
+
+}
+
+.footer-col4 p {
+  display: flex;
+  flex-direction: row;
+  align-content: space-between;
+  color: black;
+
+}
+
+.footer-col4 a {
+  color: black;
+}
+
+.ul1 a {
+  color: black;
+}
+
+.bottom-div {
+  display: flex;
+  width: 100%;
+  height: 15px;
+  background-color: orange;
+  text-align: center;
+}
+
+.footer-col4 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 50px;
+  margin: 25px;
+
+
+}
+
+.pizza {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.facebook {
+  display: flex;
+  justify-content: flex-end;
+}
+
