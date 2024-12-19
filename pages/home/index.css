@@ -1,4 +1,79 @@
-.topSECTION{
-    background-image: url(../../imgs/Section\ \(1\).png) ;
+.topSECTION {
+    background-image: url(../../imgs/Section\ \(1\).png);
     height: 100svh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.TOPflexLEFTdiv {}
+
+.TOPdivH1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 72px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+
+.TOPdivH1special {
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 59.8828px;
+    line-height: 72px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    background: #FFD40D;
+    border-radius: 100px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: -15px;
+}
+
+.TOPdivH3paris {
+    font-family: 'Fredoka One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #555555;
+}
+
+.TOPdivINPUT {
+    background: #FFFFFF;
+    border: 3px solid #E4E4E4;
+    border-radius: 7px;
+    width: -webkit-fill-available;
+    height: 35px;
+    padding: 5px;
+}
+
+.formDIV {
+    display: flex;
+}
+
+.formDIVsubmit {
+    background: #F3274C;
+    border-radius: 12px;
+    height: 40px;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
+    align-items: center;
+    width: min-content;
+}
+
+.TOPform{
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
 }
