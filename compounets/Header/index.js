@@ -1,4 +1,4 @@
-class UserComponent extends HTMLElement {
+class CustomHeader extends HTMLElement {
     connectedCallback() {
         this.render()
     }
@@ -61,4 +61,4 @@ class UserComponent extends HTMLElement {
         `
     }
 }
-customElements.define('custom-header', UserComponent)
+customElements.define('custom-header', CustomHeader)

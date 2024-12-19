@@ -1,4 +1,4 @@
-class UserComponent extends HTMLElement {
+class CustomFooter extends HTMLElement {
     connectedCallback() {
         this.render()
     }
@@ -80,4 +80,4 @@ class UserComponent extends HTMLElement {
         `
     }
 }
-customElements.define('custom-footer', UserComponent)
+customElements.define('custom-footer', CustomFooter)
