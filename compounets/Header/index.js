@@ -3,10 +3,9 @@ class CustomHeader extends HTMLElement {
         this.render()
     }
     render() {
-        const name = this.getAttribute('name')
-        const points = this.getAttribute('points')
+        const stylesheetRoot = this.getAttribute('stylesheetRoot')
         this.innerHTML = `
-        <link rel="stylesheet" href="../compounets/Header/index.css">
+        <link rel="stylesheet" href="${stylesheetRoot}">
             <header> 
         <div class="headerDIV">
             <div class="SVGdiv">
