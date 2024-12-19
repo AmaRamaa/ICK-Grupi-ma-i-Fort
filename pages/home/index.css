@@ -59,6 +59,7 @@
 
 .formDIV {
     display: flex;
+    gap: 15px;
 }
 
 .formDIVsubmit {
@@ -72,8 +73,41 @@
     width: min-content;
 }
 
-.TOPform{
+.TOPform {
     display: flex;
     gap: 15px;
     flex-direction: column;
+}
+
+.TOPflexRIGHTdiv {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: -130px;
+    gap: 25px;
+}
+
+.TOPflexRIGHTdiv img {
+    position: absolute;
+}
+
+.TOPdivIMGup {
+
+    position: absolute;
+    width: 280px;
+    height: 460px;
+    left: 15px;
+    /* top: calc(50% - 460px/2);*/
+    border-radius: 150px;
+
+}
+
+.TOPdivIMGdown {
+    position: absolute;
+    width: 280px;
+    height: 460px;
+    right: 0px;
+    top: calc(50% - 460px/2);
+    border-radius: 150px;
+
 }
