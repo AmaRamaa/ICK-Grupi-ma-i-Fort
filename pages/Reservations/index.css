@@ -140,6 +140,15 @@
     background-color: #F6F7FC;
 }
 
+.articalWELCOMEdivtext{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    background-color: #F6F7FC;
+}
+
 .articalWELCOME div h5 {
     font-weight: 400;
     font-size: 18px;
@@ -248,6 +257,7 @@
     bottom: -15vh;
     z-index: 3;
     left: 5vh;
+    border: #000000 solid 4px;
 }
 
 .articalDISCOUNT div img {
@@ -276,4 +286,39 @@
     flex-wrap: wrap;
 }
 
-@media screen 
+body{
+    background-color: #F6F7FC;
+}
+
+@media screen and (max-width: 1200px) and (min-width: 900px){
+    .TOPflexRIGHTdiv{
+        display: none;
+    }
+    .articalWELCOMEdiv{
+        display: none;
+    }
+    .articalWELCOME div h2 {
+        font-size: 30px;
+    }
+    .articalDISCOUNTdivMAIN{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 900px){
+    .TOPflexRIGHTdiv{
+        display: none;
+    }
+    .articalWELCOMEdiv{
+        display: none;
+    }
+    .articalWELCOME div h2 {
+        font-size: 30px;
+    }
+    .articalDISCOUNTdivMAIN{
+        display: none;
+    }
+}
+
+
+
