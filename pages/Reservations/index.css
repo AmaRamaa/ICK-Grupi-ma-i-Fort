@@ -7,10 +7,6 @@
 
 }
 
-body {
-    background-color: #F6F7FC;
-}
-
 .TOPflexLEFTdiv {}
 
 .TOPdivH1 {
@@ -127,6 +123,7 @@ body {
     padding-left: 15%;
     padding-right: 15%;
     padding-bottom: 240px;
+    background-color: #F6F7FC;
 }
 
 .imgROTATE {
@@ -140,6 +137,7 @@ body {
     gap: 15px;
     justify-content: center;
     align-items: center;
+    background-color: #F6F7FC;
 }
 
 .articalWELCOME div h5 {
@@ -152,6 +150,7 @@ body {
     letter-spacing: 2px;
     text-transform: uppercase;
     color: #F3274C;
+
 }
 
 .articalWELCOME div h2 {
@@ -194,3 +193,87 @@ body {
     text-decoration-line: underline;
     color: #000000;
 }
+
+.articalDISCOUNT {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    background-color: #F6F7FC;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-bottom: 240px;
+}
+
+.articalDISCOUNTtopFONT{
+    font-weight: BOLD;
+    font-size: 60px;
+    line-height: 72px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+.articalDISCOUNT div div h5 {
+    font-weight: lighter;
+    font-size: 16px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.articalDISCOUNT div div h4 {
+    font-weight: bolder;
+    font-size: 35px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.ballYELLOW{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFD40D;
+    border-radius: 100%;
+    width: min-content;
+    padding: 15px;
+    position: relative;
+    bottom: -15vh;
+    z-index: 3;
+    left: 5vh;
+}
+
+.articalDISCOUNT div img {
+    position: relative;
+}
+
+.svgTEXTpair {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    color: #555555;
+}
+
+.articalDISCOUNTbottum{
+    display: flex;
+}
+
+.articalDISCOUNTdivMAIN{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+@media screen 
