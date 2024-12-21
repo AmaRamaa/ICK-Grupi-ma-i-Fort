@@ -39,7 +39,7 @@ class CustomHeader extends HTMLElement {
                         <a href="#">Home</a>
                         <a href="#">Shop</a>
                         <a href="#">About Us</a>
-                        <a href="#">Contact</a>
+                        <a href="../../pages/Reservations/index.html">Reservations</a>
                     </div>
                     <div class="navRIGHT">
                         <div class="cart">
