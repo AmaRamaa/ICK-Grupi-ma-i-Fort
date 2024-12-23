@@ -147,3 +147,6 @@ ul {
   justify-content: flex-end;
 }
 
+.footer-col h3{
+  text-decoration: underline orange 4px;
+}
