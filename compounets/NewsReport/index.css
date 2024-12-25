@@ -1,0 +1,60 @@
+.news-card {
+    width: 300px; /* Adjust width as needed */
+    border: 1px solid #ddd; /* Optional border */
+    border-radius: 10px; /* Rounded corners */
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    font-family: Arial, sans-serif;
+    margin: 0 auto; /* Centers card */
+  }
+  
+  .card-image-container {
+    position: relative;
+  }
+  
+  .card-image {
+    width: 100%;
+    display: block;
+    border-bottom: 1px solid #ddd; /* Optional separator */
+  }
+  
+  .date-badge {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #ffd700; /* Yellow background */
+    color: #000; /* Black text */
+    font-size: 0.9rem;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
+  .card-content {
+    padding: 15px;
+  }
+  
+  .card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+    margin: 10px 0;
+  }
+  
+  .author-info {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .author-image {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .author-name {
+    font-size: 0.9rem;
+    color: #555;
+  }
