@@ -1,0 +1,506 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    justify-content: space-between;
+    background-image: url("food.png");
+    background-repeat: no-repeat;
+    width: auto;
+    background-size: cover;
+}
+
+.homeInvest {
+    margin-top: 10%;
+    max-width: 6990px;
+}
+
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    padding: 14px 40px;
+    color: white;
+    font-size: 18px;
+    border-radius: 11px;
+    background-color: #E63D45;
+    margin-left: -250px;
+    margin-top: 40px;
+
+}
+
+.homeInvest h1 {
+    font-size: 50px;
+    margin-left: -250px;
+    width: 550px;
+    color: white;
+    margin-top: 20px;
+}
+
+.homeInvest p {
+    font-size: 20px;
+    margin-left: -250px;
+    width: 500px;
+    margin-top: 15px;
+    color: white;
+    
+}
+
+.btn:hover {
+    background-color: red;
+}
+
+.homeInvest a {
+    font-weight: 900;
+}
+
+.containerHome {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    gap: 30px;
+    width: 1550px;
+    height: 800px;
+    background-color: white;
+}
+
+.paragraf {
+    color: red;
+    font-weight: 900;
+    margin-left: 280px;
+    margin-top: 70px;
+}
+
+.tittle h1 {
+    color: black;
+    font-size: 50px;
+    margin-left: 280px;
+    margin-top: 70px;
+    font-weight: 800;
+    margin-bottom: 70px;
+}
+
+.tittle {
+    display: flex;
+    flex-direction: column;
+    width: 1300px;
+    height: 500px;
+}
+
+.areahome {
+    gap: 45px;
+    width: 500px;
+    height: 400px;
+    position: absolute;
+    bottom: 33%;
+    right: 10%;
+
+}
+
+.areahome h3 {
+    bottom: 24%;
+}
+
+.photos {
+    width: 1400px;
+    height: 600px;
+
+    justify-content: space-between;
+
+}
+
+.steaksHome {
+    position: relative;
+    display: flex;
+    width: 300px;
+    height: 300px;
+    gap: 120px;
+    justify-content: flex-start;
+    margin-left: 290px;
+
+}
+
+
+.gota1 {
+    margin-top: 50px;
+    size: 90%;
+    width: 300px;
+    height: 280px;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 90px;
+    color: black;
+    margin-bottom: 50px;
+    font-weight: 700;
+    font-size: 40;
+
+}
+
+
+.text p {
+    margin-left: 350px;
+    margin-bottom: 150px;
+}
+
+
+.private {
+    margin-right: 350px;
+    display: flex;
+}
+
+.chicken {
+    display: flex;
+    width: 1440px;
+    height: 1440px;
+
+    margin-left: 12px;
+}
+
+.chickenPhoto {
+    width: 1500px;
+    height: 1000px;
+
+    margin-left: 30px;
+    justify-content: center;
+
+}
+
+
+.pyetsor {
+    width: 700px;
+    height: 540px;
+    margin-left: 500px;
+    margin-top: -430px;
+    margin-bottom: 450px;
+    background-color: rgb(233, 221, 221);
+    border-radius: 43px;
+    text-align: center;
+    align-items: flex-start;
+
+
+}
+
+.pjata {
+    margin-top: 940px;
+    size: 13pc;
+    margin-left: 140px;
+}
+
+
+
+.pyetsor h1 {
+    margin-left: -230px;
+
+}
+
+.pyetsor h2 {
+    margin-top: 60px;
+    margin-right: 170px;
+}
+
+
+
+.pyetsor p {
+    margin-left: 460px;
+    margin-bottom: -10px;
+    font-weight: 900;
+    color: #E63D45;
+    font-size: 150%;
+    gap: 130px;
+
+}
+
+.chefs {
+    display: flex;
+    width: 1500px;
+    height: 750px;
+
+}
+
+
+.experts {
+    display: flex;
+    width: 1200px;
+    height: 500px;
+    margin-left: 150px;
+    margin-top: 130px;
+
+}
+
+.chefs h1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: black;
+
+}
+
+.names {
+    display: flex;
+    justify-content: center;
+    width: 1200px;
+    height: 140px;
+    margin-left: -1200px;
+}
+
+
+.names h2 {
+    justify-content: center;
+    text-align: center;
+    margin-top: 80px;
+    font-size: 200%;
+    text-decoration: solid;
+    background-color: rgb(185, 185, 0);
+    border-radius: 45px;
+    width: 1000px;
+    text-decoration: underline;
+    margin-bottom: 20px;
+}
+
+
+.app {
+    width: 1900px;
+    display: flex;
+    height: 840px;
+    margin-bottom: 100px;
+    margin-left: 175px;
+
+}
+
+.phone {
+    width: 1400px;
+
+    height: 700px;
+
+
+}
+
+
+.phone p {
+    margin-left: 30px;
+    width: 1800px;
+    height: 40px;
+    font-weight: 900;
+    margin-top: 85px;
+    color: red;
+
+}
+
+.phone h1 {
+    margin-top: 50px;
+    width: 600px;
+    height: 100px;
+    margin-top: -140x;
+    font-size: 40px;
+
+
+}
+
+.phone h3 {
+    gap: 20px;
+    margin-top: 30px;
+
+}
+
+
+
+.btnG {
+    display: inline-block;
+    text-decoration: none;
+    padding: 14px 40px;
+    color: white;
+    font-size: 18px;
+    border-radius: 15px;
+    background-color: #E63D45;
+    margin-top: 40px;
+    text-decoration-line: none;
+
+}
+
+
+.btnP {
+    display: inline-block;
+    text-decoration: none;
+    padding: 14px 40px;
+    color: white;
+    font-size: 18px;
+    border-radius: 15px;
+    background-color: black;
+    margin-top: 40px;
+    text-decoration-line: none;
+    margin-left: 25px;
+
+}
+
+
+
+
+.btnG:hover {
+    background-color: rgb(220, 113, 113);
+}
+
+
+.btnP:hover {
+    background-color: rgb(187, 179, 179);
+}
+
+
+
+.telefoniP {
+    width: 400px;
+    height: 500x;
+    margin-left: 400px;
+    margin-top: -310px;
+}
+
+
+
+
+.container {
+   width: 1540px;
+    height: 640px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    justify-content: space-around;
+}
+
+.containerIMG1 {
+    margin-left: -6.3svw;
+}
+
+.containerIMG2 {
+    margin-right: -6.3svw;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+ul {
+    list-style: none;
+
+}
+
+.footer {
+    background-color: #F5F8FD;
+    padding: 70px 0;
+}
+
+.footer-col {
+    width: 25%;
+    padding: 0 15px;
+}
+
+.footer-col {
+    font-size: 18px;
+    color: black;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+
+}
+
+.footer-col1 {
+    background-color: #EE3A43;
+    size: 50%;
+    border-radius: 15px;
+    padding: 25px;
+    height: 280px;
+    width: 350px;
+
+}
+
+.button {
+    background-color: #ee3a43;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 15px;
+}
+
+.emailAddress {
+    background-color: white;
+    border: none;
+    color: back;
+    padding: 16px 35px;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 12px;
+    width: 270px;
+}
+
+.footer-col1 h3 {
+    color: white;
+}
+
+.footer-col1 p {
+    color: white;
+
+}
+
+.footer-col4 p {
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    color: black;
+
+}
+
+.footer-col4 a {
+    color: black;
+}
+
+.ul1 a {
+    color: black;
+}
+
+.bottom-div {
+    display: flex;
+    width: 100%;
+    height: 15px;
+    background-color: orange;
+    text-align: center;
+}
+
+.footer-col4 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 50px;
+    margin: 25px;
+
+}
+
+.pizza {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.facebook {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.footer-col h3 {
+    text-decoration: underline orange 4px;
+}
