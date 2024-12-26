@@ -150,3 +150,9 @@ ul {
 .footer-col h3{
   text-decoration: underline orange 4px;
 }
+
+@media screen and (max-width: 850px){
+  .footer-col1{
+    display: none;
+  }
+}
