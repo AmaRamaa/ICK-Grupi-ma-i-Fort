@@ -1,0 +1,157 @@
+.HeaderSectionFirst {
+    background-image: url(../../imgs/Section\ \(3\).png);
+    background-color: #d225253d;
+    height: 980px;
+    padding: 250px;
+}
+
+.HeaderDivFirst {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    width: 60svb;
+}
+
+.H1General {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 100px;
+    display: flex;
+    align-items: center;
+    color: #151418;
+}
+
+.PGeneral {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    color: #222222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.HeaderDivSecond {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.HeaderDivSecond button {
+    background: #ED274B;
+    border-radius: 9999px;
+    font-weight: 10;
+    font-size: 11px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: 10px 20px 10px 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.specialSVG {
+    margin: 5px;
+    background: #FFFFFF;
+    border-radius: 9999px;
+}
+
+.clickableCard {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    width: max-content;
+    max-width: 600px;
+    margin: 0 auto;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.clickableCard:hover {
+    transform: scale(1.05);
+}
+
+.UnderMenuFirst {
+    background-image: url(../../imgs/menuBackground.png);
+    height: 451px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.MenuItems {
+    background-color: white;
+    border-radius: 40%;
+    height: 330px;
+    width: min-content;
+    padding: 15px;
+    background: #FFFFFF;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+    border-radius: 95px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.FoodItemsH2{
+font-weight: 700;
+font-size: 16px;
+line-height: 24px;
+display: flex;
+align-items: center;
+text-align: center;
+color: #222222;
+}
+
+.MainContainerMenuDiv {
+    display: flex;
+    justify-content: center;
+}
+
+.TodaysH1 {
+    font-family: 'Playball';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+.ourMenuH2 {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 40px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.ButtonDivOri {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.ContainerMenuDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
