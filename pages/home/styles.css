@@ -148,8 +148,10 @@ body{
 
 
 .text p {
-    margin-left: 350px;
-    margin-bottom: 150px;
+    display: flex;
+    justify-content: center;
+    /* margin-left: 350px;
+    margin-bottom: 150px; */
 }
 
 
