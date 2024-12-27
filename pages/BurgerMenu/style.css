@@ -1,0 +1,400 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap");
+
+/* green: #00A149*/
+/* dark: #212121*/
+/* grey: #F5F8FD*/
+/* orange: #FFC222*/
+/* white: #FFF */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0%;
+  font-family: Oswald, sans-serif;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.container3 {
+  max-width: 1300px;
+  padding: 0 14px;
+  margin: 0 auto;
+}
+
+#banner {
+  background-image: url("./images/Section.png");
+  width: 100%;
+  height: auto;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+#banner .container3 {
+  padding: 60px 0;
+}
+
+#banner img {
+  width: 45%;
+  height: auto;
+  margin: auto;
+}
+
+#text {
+  margin: auto;
+  color: #fff;
+}
+
+#text h2 {
+  font-size: 100px;
+  margin: 0%;
+  width: 440px;
+  line-height: 105px;
+}
+
+#yellow-text {
+  font-size: 20px;
+  color: #ffc222;
+  margin: 0%;
+  margin-bottom: -10px;
+  margin-left: 3px;
+}
+
+#price {
+  display: flex;
+  flex-direction: row;
+  color: #fff;
+  margin-top: 10px;
+}
+
+#price-text {
+  font-size: 28px;
+  margin: 0%;
+  margin-top: 20px;
+  margin-right: 5px;
+}
+
+#price-number {
+  font-size: 55px;
+  margin: 0%;
+}
+
+button {
+  background-color: #ee284b;
+  border: none;
+  padding: 20px 30px;
+  border-radius: 8px;
+  color: #fff;
+}
+
+button i {
+  color: #fff;
+  margin-right: 5px;
+}
+
+#popular-food {
+  background-color: #f5f8fd;
+}
+
+#popular-food .container3 {
+  padding: 120px 0;
+}
+
+#popular-food .header {
+  margin-bottom: 30px;
+}
+
+#popular-food .header .description {
+  font-weight: bold;
+  color: #00a149;
+  font-size: 17px;
+  line-height: 28px;
+}
+
+#popular-food .header .title {
+  font-weight: bold;
+  color: #212121;
+  font-size: 60px;
+  line-height: 67px;
+}
+
+#popular-food .items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+#popular-food .items .item {
+  height: 394px;
+  max-width: 300px;
+  padding: 20px 49px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 19px;
+  background: #fff;
+  border-radius: 14px;
+}
+
+#popular-food .items .item .img-wrapper {
+  width: 202px;
+  height: 218px;
+}
+
+#popular-food .items .item .img-wrapper img {
+  width: 100%;
+  height: 100%;
+}
+
+#popular-food .items .item .info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+}
+
+#popular-food .items .item .title {
+  font-size: 28px;
+  line-height: 36px;
+  color: #212121;
+}
+
+#popular-food .items .item .separator {
+  height: 2px;
+  width: 53px;
+  background: #ffc222;
+}
+
+#popular-food .items .item .quantity {
+  font-size: 17px;
+  line-height: 28px;
+  color: #ffc222;
+}
+
+#offers {
+  background: #f5f8fd;
+}
+
+#offers .offers-wrapper {
+  padding-bottom: 120px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+#offers .offers-wrapper img {
+  height: 350px;
+}
+
+#sponsors {
+  background: #f5f8fd;
+  padding-bottom: 120px;
+}
+
+#sponsors .sponsors-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+#sponsors .sponsors-wrapper .sponsors-header {
+  font-weight: semibold;
+  font-size: 20px;
+  line-height: 26px;
+}
+
+#sponsors .sponsors-wrapper .sponsors-images {
+  display: flex;
+  align-items: center;
+  gap: 95px;
+}
+
+#sponsors .sponsors-wrapper .sponsors-images img {
+  max-width: 125px;
+  max-height: 71px;
+}
+
+.yellow-text {
+  color: #ffc222;
+}
+
+#offer-2 {
+  position: relative;
+  background: #111;
+  height: 873px;
+}
+
+#offer-2 .container {
+  height: 100%;
+}
+
+#offer-2 .offer-2-wrapper {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  color: white;
+}
+
+#offer-2 .offer-2-wrapper .info {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  font-weight: bold;
+}
+
+#offer-2 .offer-2-wrapper .info p:nth-of-type(1) {
+  font-size: 28px;
+  line-height: 36px;
+}
+
+#offer-2 .offer-2-wrapper .info p:nth-of-type(2) {
+  font-size: 60px;
+  line-height: 67px;
+}
+
+#offer-2 .offer-2-wrapper .info p:nth-of-type(3) {
+  font-size: 36px;
+  line-height: 46px;
+}
+
+#offer-2 .offer-2-wrapper .info .yellow-text-small {
+  color: #ffc222;
+  font-size: 28px;
+  line-height: 46px;
+}
+
+#offer-2 .offer-2-wrapper button {
+  width: 212px;
+  height: 64px;
+  display: flex;
+  gap: 14px;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+
+#offer-2 .img-left {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 263px;
+  height: 377px;
+}
+
+#offer-2 .img-right {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 167px;
+  height: 132px;
+}
+
+#popular-fast-foods {
+  background: #f5f8fd;
+  padding: 120px 0;
+  z-index: 50;
+}
+
+#popular-fast-foods .header {
+  width: 100%;
+  margin-bottom: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#popular-fast-foods .header p:nth-of-type(1) {
+  font-weight: bold;
+  color: #00a149;
+  font-size: 17px;
+  line-height: 28px;
+}
+
+#popular-fast-foods .header p:nth-of-type(2) {
+  font-weight: bold;
+  color: #212121;
+  font-size: 60px;
+  line-height: 67px;
+}
+
+#popular-fast-foods .items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+#popular-fast-foods .item {
+  width: 300px;
+  height: 480px;
+  position: relative;
+}
+
+#popular-fast-foods .item .favorite {
+  position: absolute;
+  top: -15px;
+  left: 15px;
+}
+
+#popular-fast-foods .item .img-wrapper {
+  width: 100%;
+  border-radius: 14px;
+  height: 312px;
+  padding: 40px 20px;
+  background: #fff;
+}
+
+#popular-fast-foods .item .info {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  padding-top: 29px;
+  padding-bottom: 53px;
+}
+
+#popular-fast-foods .item .info .price {
+  display: flex;
+  gap: 10px;
+  align-items: flex-end;
+}
+
+#popular-fast-foods .item .info .price div:nth-of-type(1) {
+  font-size: 16px;
+  line-height: 28px;
+  color: #212121;
+  padding: 4px 6px;
+  background: #ffc222;
+  font-weight: semibold;
+  border-radius: 3px;
+}
+
+#popular-fast-foods .item .info .price div:nth-of-type(2) {
+  font-size: 16px;
+  line-height: 28px;
+  color: #5c5c5b;
+  text-decoration: line-through;
+}
+
+#popular-fast-foods .item .info .price div:nth-of-type(2) {
+  font-size: 16px;
+  line-height: 28px;
+  color: #5c5c5b;
+  font-weight: semibold;
+}
+
+#popular-fast-foods .item .info .name {
+  font-size: 20px;
+  line-height: 26px;
+  color: #212121;
+}
