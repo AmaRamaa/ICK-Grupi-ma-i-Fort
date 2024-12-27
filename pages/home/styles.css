@@ -1,3 +1,4 @@
+
 * {
     padding: 0;
     margin: 0;
@@ -6,17 +7,18 @@
 .container3 {
     display: flex;
     flex-direction: column;
-    height: auto;
+    height: 400px;
     justify-content: space-between;
     background-image: url("food.png");
     background-repeat: no-repeat;
-    width: auto;
+    width: 1400px;
     background-size: cover;
 }
 
 .homeInvest {
-    margin-top: 10%;
-    max-width: 6990px;
+    
+    max-width: 1400px;
+    
 }
 
 .btn {
@@ -27,14 +29,14 @@
     font-size: 18px;
     border-radius: 11px;
     background-color: #E63D45;
-    margin-left: -250px;
+    margin-left: -50px;
     margin-top: 40px;
 
 }
 
 .homeInvest h1 {
     font-size: 50px;
-    margin-left: -250px;
+    margin-left: -50px;
     width: 550px;
     color: white;
     margin-top: 20px;
@@ -42,7 +44,7 @@
 
 .homeInvest p {
     font-size: 20px;
-    margin-left: -250px;
+    margin-left: -50px;
     width: 500px;
     margin-top: 15px;
     color: white;
@@ -145,8 +147,10 @@
 
 
 .text p {
-    margin-left: 350px;
-    margin-bottom: 150px;
+    display: flex;
+    justify-content: center;
+    /* margin-left: 350px;
+    margin-bottom: 150px; */
 }
 
 
