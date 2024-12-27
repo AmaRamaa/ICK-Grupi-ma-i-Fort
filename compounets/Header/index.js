@@ -37,10 +37,9 @@ class CustomHeader extends HTMLElement {
                 <nav class="navBAR">
                     <div class="navLEFT">
                         <a href="../home/index.html">Home</a>
-                        <a href="#">Shop</a>
-                        <a href="#">About Us</a>
+                        <a href="../Menu/index.html">Menu</a>
                         <a href="../Reservations/index.html">Reservations</a>
-                        <a href="#">Contact</a>
+                        <a href="../BurgerMenu/index.html">Burger Menu</a>
                     </div>
                     <div class="navRIGHT">
                         <div class="cart">
@@ -63,10 +62,9 @@ class CustomHeader extends HTMLElement {
         <div class="burgerMenuDropDown" id="burgerMenuDropDown">
             <div class="navLEFT" id="navLEFT">
                 <a href="../home/index.html">Home</a>
-                <a href="#">Shop</a>
-                <a href="#">About Us</a>
-                <a href="../Reservations/index.html">Reservations</a>
-                <a href="#">Contact</a>
+                        <a href="../Menu/index.html">Menu</a>
+                        <a href="../Reservations/index.html">Reservations</a>
+                        <a href="../BurgerMenu/index.html">Burger Menu</a>>
             </div>
         </div>
     </header>

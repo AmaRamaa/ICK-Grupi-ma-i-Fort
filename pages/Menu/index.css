@@ -5,11 +5,16 @@
     padding: 250px;
 }
 
+
 .HeaderDivFirst {
     display: flex;
     flex-direction: column;
     gap: 25px;
     width: 60svb;
+}
+
+.ImgHolder{
+    margin: 250px;
 }
 
 .H1General {
@@ -22,6 +27,50 @@
     color: #151418;
 }
 
+.SpecialOffersSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin: 260px 0px 260px 0px;
+    height: 673px;
+    padding: 0px 120px 0px 120px;
+    background-image: url(../../imgs/Section\ \(34\).png);
+}
+
+.SpacingDiv{
+    width: 1500px;
+    height: 340px;
+}
+
+.SpecialOfferDivLeft{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+    gap: 25px;
+}
+
+.Price1 {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #FF6C00;
+}
+
+.OldPrice {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 19.2px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #D1D1D1;
+}
+
 .PGeneral {
     font-weight: 400;
     font-size: 16px;
@@ -29,9 +78,9 @@
     display: flex;
     align-items: center;
     color: #222222;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    /* display: flex;
+        justify-content: center;
+        align-items: center; */
 }
 
 .HeaderDivSecond {
@@ -41,7 +90,35 @@
     gap: 20px;
 }
 
-.HeaderDivSecond button {
+.SpecialOfferH1 {
+    font-style: italic;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #01693A;
+}
+
+.OriDivDeliverLeft {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.OriDivDeliverRight {
+    display: flex;
+    justify-content: end;
+    align-self: center;
+    flex-direction: column;
+    gap: 25px;
+    align-items: flex-end;
+}
+
+
+button {
     background: #ED274B;
     border-radius: 9999px;
     font-weight: 10;
@@ -104,19 +181,20 @@
     gap: 15px;
 }
 
-.FoodItemsH2{
-font-weight: 700;
-font-size: 16px;
-line-height: 24px;
-display: flex;
-align-items: center;
-text-align: center;
-color: #222222;
+.FoodItemsH2 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #222222;
 }
 
 .MainContainerMenuDiv {
     display: flex;
     justify-content: center;
+    gap: 25px;
 }
 
 .TodaysH1 {
@@ -155,3 +233,282 @@ color: #222222;
     justify-content: center;
     align-items: start;
 }
+
+.DeliverySection {
+    background-color: white;
+    margin: 120px;
+    padding: 10px 220px 10px 220px;
+}
+
+.DeliveryInfoDiv {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+}
+
+.GuaranteeText {
+    font-family: 'Playball';
+    font-style: i;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    color: #01693A;
+}
+
+.ChoseH1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    color: #222222;
+}
+
+.gridOfferLayout {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-column-gap: 100px;
+    grid-row-gap: 15px;
+}
+
+.SpecialGrid1 {
+    grid-area: 3 / 1 / 5 / 3;
+}
+
+.SpecialGrid2 {
+    grid-area: 1 / 1 / 3 / 3;
+}
+
+.SpecialGrid3 {
+    grid-area: 1 / 3 / 5 / 7;
+}
+
+.SpecialGrid4 {
+    grid-area: 1 / 7 / 5 / 9;
+}
+
+.BestSellingSection {
+    margin: 40px 280px 40px 280px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+}
+
+.OriDivBestSellings {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.SellingH1 {}
+
+#popular-fast-foods {
+    background: white;
+    padding: 120px 0;
+    z-index: 50;
+}
+
+#popular-fast-foods .header {
+    width: 100%;
+    margin-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#popular-fast-foods .header p:nth-of-type(1) {
+    font-weight: bold;
+    color: #00a149;
+    font-size: 17px;
+    line-height: 28px;
+}
+
+#popular-fast-foods .header p:nth-of-type(2) {
+    font-weight: bold;
+    color: #212121;
+    font-size: 60px;
+    line-height: 67px;
+}
+
+#popular-fast-foods .items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    background-color: white;
+}
+
+#popular-fast-foods .item {
+    width: 300px;
+    height: 480px;
+    position: relative;
+    background-color: #f5f8fd;
+}
+
+#popular-fast-foods .item .favorite {
+    position: absolute;
+    top: -15px;
+    left: 15px;
+}
+
+#popular-fast-foods .item .img-wrapper {
+    width: min-content;
+    border-radius: 14px;
+    height: 312px;
+    padding: 40px 20px;
+    background: #fff;
+}
+
+#popular-fast-foods .item .img-wrapper img {
+    width: 250px;
+}
+
+#popular-fast-foods .item .info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 29px;
+    padding-bottom: 53px;
+}
+
+img #popular-fast-foods .item .info .price {
+    display: flex;
+    gap: 10px;
+    align-items: flex-end;
+}
+
+#popular-fast-foods .item .info .price div:nth-of-type(1) {
+    font-size: 16px;
+    line-height: 28px;
+    color: #212121;
+    padding: 4px 6px;
+    background: #ffc222;
+    font-weight: semibold;
+    border-radius: 3px;
+}
+
+#popular-fast-foods .item .info .price div:nth-of-type(2) {
+    font-size: 16px;
+    line-height: 28px;
+    color: #5c5c5b;
+    text-decoration: line-through;
+}
+
+#popular-fast-foods .item .info .price div:nth-of-type(2) {
+    font-size: 16px;
+    line-height: 28px;
+    color: #5c5c5b;
+    font-weight: semibold;
+}
+
+#popular-fast-foods .item .info .name {
+    font-size: 20px;
+    line-height: 26px;
+    color: #212121;
+}
+
+.productGrid {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .productCard {
+    width: 200px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .productImageWrapper {
+    position: relative;
+    height: 150px;
+  }
+  
+  .productImage {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .discountBadge {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #21d15c;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 0.8rem;
+    font-weight: bold;
+  }
+  
+  .timer {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    display: flex;
+    gap: 5px;
+  }
+  
+  .timeUnit {
+    background-color: #fff;
+    padding: 5px 8px;
+    border-radius: 5px;
+    font-size: 0.7rem;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .productDetails {
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .productName {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px;
+  }
+  
+  .productPrice {
+    font-size: 1rem;
+    color: #21d15c;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .cartButton {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .cartIcon {
+    width: 24px;
+    height: 24px;
+  }
+
+  .FeaturedSectioned{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 250px;
+    margin: 120px;
+  }
