@@ -104,11 +104,19 @@
     position: absolute;
     bottom: 33%;
     right: 10%;
+    
 
 }
 
 .areahome h3 {
     bottom: 24%;
+    margin-left:50px ;
+    
+}
+
+
+.areahome p{
+    margin-left: 50px;
 }
 
 .photos {
