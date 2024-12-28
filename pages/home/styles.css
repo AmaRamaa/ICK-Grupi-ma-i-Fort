@@ -30,25 +30,28 @@
     font-size: 18px;
     border-radius: 11px;
     background-color: #E63D45;
-    margin-left: 25%;
-    margin-top: 80px;
+    margin-left: 21%;
+    margin-top: 5%;
 
 }
 
 .homeInvest h1 {
     font-size: 50px;
+    display: flex;
+    justify-content: center;
     margin-left: 21%;
     width: 550px;
     color: white;
-    margin-top: 20px;
+    margin-top: 11%;
 }
 
 .homeInvest p {
+    display: flex;
     font-size: 20px;
     text-align: center;
-   margin-left: 19%;
+   margin-left: 18%;
     width: 500px;
-    margin-top: 15px;
+    margin-top: 60px;
     color: white;
     
 }
