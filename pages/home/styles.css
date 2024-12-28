@@ -11,12 +11,12 @@
     justify-content: space-between;
     background-image: url("food.png");
     background-repeat: no-repeat;
-    width: 1400px;
+    width: auto;
     background-size: cover;
 }
 
 .homeInvest {
-    
+        
     max-width: 1400px;
     
 }

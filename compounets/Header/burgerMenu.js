@@ -4,7 +4,7 @@ const navList = document.getElementById("navLEFT");
 const burgerMenuIsClicked = () => {
     let burgerMenu = document.getElementById("burgerMenuDropDown");
     let navList = document.getElementById("navLEFT");
-    if (burgerMenu.style.display === "none") {
+    if (burgerMenu.style.display == "none") {
         console.log(true)
         burgerMenu.style.display = "flex";
         navList.style.display = "flex";
