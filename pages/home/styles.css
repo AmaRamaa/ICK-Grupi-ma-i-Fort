@@ -436,12 +436,13 @@ ul {
 .emailAddress {
     background-color: white;
     border: none;
-    color: back;
+    color: black;
     padding: 16px 35px;
+    margin-right: 10%;
     text-decoration: none;
     display: inline-block;
     border-radius: 12px;
-    width: 270px;
+    width: 870px;
 }
 
 .footer-col1 h3 {
