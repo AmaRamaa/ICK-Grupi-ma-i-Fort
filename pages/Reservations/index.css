@@ -980,9 +980,15 @@ color: #F3274C;
     .containerMenu2{
         display: none;
     }
+    .saleBanner{
+        display: none;
+    }
 }
 
 @media screen and (max-width: 900px) {
+    .saleBanner{
+        display: none;
+    }
     .TOPflexRIGHTdiv {
         display: none;
     }
@@ -1010,6 +1016,15 @@ color: #F3274C;
         display: none;
     }
     .containerMenu2{
+        display: none;
+    }
+    .H1WithAbusulut{
+        display: none;
+    }
+    .h1Hightlightstext{
+        font-size: 30px;
+    }
+    .articalDISCOUNT{
         display: none;
     }
 }
