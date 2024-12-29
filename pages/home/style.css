@@ -20,6 +20,19 @@
     font-size: 5em;
 }
 
+.btn1{
+    display: inline-block;
+    text-decoration: none;
+    padding: 14px 40px;
+    color: white;
+    font-size: 20px;
+    border-radius: 15px;
+    background-color: #E63D45;
+    margin-top: 40px;
+    text-decoration-line: none;
+    margin-left: 8px;
+}
+
 .homeInvest p{
     font-size: 2em;
 }
