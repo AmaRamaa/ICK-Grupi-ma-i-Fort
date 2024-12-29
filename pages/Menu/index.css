@@ -512,3 +512,80 @@ img #popular-fast-foods .item .info .price {
     gap: 250px;
     margin: 120px;
   }
+
+  @media screen and (max-width: 1500px) and (min-width: 900px) {
+    .UnderMenuFirst{
+        overflow: scroll;
+    }
+    .gridOfferLayout{
+        display: none;
+    }
+    .mobileImg{
+        display: none;
+    }
+    .DeliveryInfoDiv{
+        flex-direction: column;
+    }
+    .BestSellingSection{
+        margin: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .HeaderDivFirst{
+        width: auto;
+    }
+    .items{
+        justify-content: center;
+        align-items: center;
+    }
+    .SpacingDiv{
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 900px) and (min-width: 500px) {  
+    .UnderMenuFirst{
+        overflow: scroll;
+    }
+    .gridOfferLayout{
+        display: none;
+    }
+    .mobileImg{
+        display: none;
+    }
+    .DeliveryInfoDiv{
+        flex-direction: column;
+    }
+    .DeliverySection{
+        padding: 0px;
+    }
+    .BestSellingSection{
+        margin: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .clickableCard{
+        display: none;
+    }
+    .H1General{
+        font-size: 35px;
+    }
+    .HeaderDivFirst{
+        width: auto;
+    }
+    .items{
+        justify-content: center;
+        align-items: center;
+    }
+    .SpacingDiv{
+        display: none;
+    }
+    .PGeneral{
+        display: none;
+    }
+}
