@@ -54,7 +54,7 @@
 .tittle h1 {
     color: black;
     font-size: 50px;
-    margin-left: 280px;
+    margin-left: 32%;
     margin-top: 70px;
     font-weight: 800;
     margin-bottom: 70px;
@@ -218,14 +218,40 @@
 }
 
 
-@media screen and (max-width: 1200px) and (min-width: 900px) {
+@media screen and (max-width: 1200px) and (min-width: 800px) {
     img{
         display: none;
     }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 800px) {
     img{
         display: none;
     }
+
+   .homeInvest h1{
+        font-size: 50px;
+        margin-right: 40px;
+        margin-left: -14%;
+
+    }
+
+    .homeInvest p{
+        font-size: 25px;
+        margin-right: 40px;
+        margin-left: -16%;
+
+        }
+    
+        .btn1{
+            margin-left: -14%;
+        }
+
+        .tittle h1{
+        margin-left: -7%;
+        }
+
+        .paragraf{
+            margin-left: -7%;
+        }
 }
