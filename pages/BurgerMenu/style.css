@@ -430,6 +430,9 @@ button i {
     align-items: center;
     justify-content: center;
   }
+  .SVGlogo{
+    display: block;
+  }
 }
 
 
@@ -458,4 +461,8 @@ button i {
     align-items: center;
     justify-content: center;
   }
+  .SVGlogo{
+        display: block;
+    }
+
 }

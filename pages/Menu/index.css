@@ -543,6 +543,9 @@ img #popular-fast-foods .item .info .price {
     .SpacingDiv{
         display: none;
     }
+    .SVGlogo{
+        display: block;
+    }
 }
 
 
@@ -587,5 +590,8 @@ img #popular-fast-foods .item .info .price {
     }
     .PGeneral{
         display: none;
+    }
+    .SVGlogo{
+        display: block;
     }
 }

@@ -9,7 +9,7 @@ class CustomHeader extends HTMLElement {
         <header> 
         <div class="headerDIV">
             <div class="SVGdiv">
-                <img src="../../Assets/svgs/Logo.svg">
+                <img src="../../Assets/svgs/Logo.svg" class="SVGlogo">
                     
                 <h2 class="SVGtext">
                     kosova hut 

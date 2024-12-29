@@ -983,6 +983,9 @@ color: #F3274C;
     .saleBanner{
         display: none;
     }
+    .SVGlogo{
+        display: block;
+    }
 }
 
 @media screen and (max-width: 900px) {
@@ -1026,5 +1029,8 @@ color: #F3274C;
     }
     .articalDISCOUNT{
         display: none;
+    }
+    .SVGlogo{
+        display: block;
     }
 }
