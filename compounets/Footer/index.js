@@ -27,15 +27,15 @@ class CustomFooter extends HTMLElement {
                     <br>
                     <br>
                     <ul class="ul1">
-                        <li><a href="#">Steaks</a></li>
+                        <li><a href="../Menu/index.html">Steaks</a></li>
                         <br>
-                        <li><a href="#">Burgers</a></li>
+                        <li><a href="../BurgerMenu/index.html">Burgers</a></li>
                         <br>
-                        <li><a href="#">Coctails</a></li>
+                        <li><a href="../Menu/index.html">Coctails</a></li>
                         <br>
-                        <li><a href="#">Bar B Q</a></li>
+                        <li><a href="../Menu/index.html">Bar B Q</a></li>
                         <br>
-                        <li><a href="#">Desserts</a></li>
+                        <li><a href="../Menu/index.html">Desserts</a></li>
                     </ul>
                 </div>
                 <div class="footer-col">
