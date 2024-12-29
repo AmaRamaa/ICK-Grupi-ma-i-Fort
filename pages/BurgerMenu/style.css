@@ -29,7 +29,7 @@ img {
 }
 
 #banner {
-  background-image: url("./images/Section.png");
+  background-image: url("../../Assets/imgs/Section.png");
   width: 100%;
   height: auto;
   display: grid;

@@ -6,9 +6,9 @@
 .container3 {
     display: flex;
     flex-direction: column;
-    height: 600px;
+    height: 1000px;
     justify-content: space-between;
-    background-image: url("Assets/food.png");
+    background-image: url("../../Assets/imgs/food.png");
     background-repeat: no-repeat;
     width: auto;
     background-size: cover;
@@ -119,7 +119,7 @@
 }
 
 .photos {
-    width: 1400px;
+    width: auto;
     height: 600px;
 
     justify-content: space-between;
@@ -273,7 +273,7 @@
 }
 
 .phone {
-    width: 1400px;
+    width: auto;
     height: 700px;
     margin-left: 7%;
 

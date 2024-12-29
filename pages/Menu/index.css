@@ -1,5 +1,5 @@
 .HeaderSectionFirst {
-    background-image: url(../../imgs/Section\ \(3\).png);
+    background-image: url(../../Assets/imgs/Section\ \(3\).png);
     background-color: #d225253d;
     height: 980px;
     padding: 250px;
@@ -35,7 +35,7 @@
     margin: 260px 0px 260px 0px;
     height: 673px;
     padding: 0px 120px 0px 120px;
-    background-image: url(../../imgs/Section\ \(34\).png);
+    background-image: url(../../Assets/imgs/Section\ \(34\).png);
 }
 
 .SpacingDiv{
@@ -157,7 +157,7 @@ button {
 }
 
 .UnderMenuFirst {
-    background-image: url(../../imgs/menuBackground.png);
+    background-image: url(../../Assets/imgs/menuBackground.png);
     height: 451px;
     padding: 20px;
     display: flex;

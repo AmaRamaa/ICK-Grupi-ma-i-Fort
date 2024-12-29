@@ -1,5 +1,5 @@
 .topSECTION {
-    background-image: url(../../imgs/Section\ \(1\).png);
+    background-image: url(../../Assets/imgs/Section\ \(1\).png);
     height: 100svh;
     display: flex;
     justify-content: space-around;
@@ -849,7 +849,7 @@ color: #F3274C;
 }
 
 .sectionHighlights {
-    background-image: url(../../imgs/Section\ \(2\).png);
+    background-image: url(../../Assets/imgs/Section\ \(2\).png);
     height: 675px;
     display: flex;
     gap: 15px;

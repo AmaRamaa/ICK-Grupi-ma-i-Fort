@@ -8,6 +8,12 @@
     margin: 0px;
 }
 
+header{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
 .SVGtext{
     color:#EE3A43;
     font-style: italic;
