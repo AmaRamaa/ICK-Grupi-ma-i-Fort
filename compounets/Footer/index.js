@@ -8,7 +8,7 @@ class CustomFooter extends HTMLElement {
         <link rel="stylesheet" href="${stylesheetRoot}">
             <footer class="footer">
         <div class="container">
-            <img src="../../imgs/Container.png" class="containerIMG1">
+            <img src="../../Assets/imgs/Container.png" class="containerIMG1">
             <div class="row">
                 <div class="footer-col1">
                     <h3>kosova hut</h3>
@@ -27,15 +27,15 @@ class CustomFooter extends HTMLElement {
                     <br>
                     <br>
                     <ul class="ul1">
-                        <li><a href="#">Steaks</a></li>
+                        <li><a href="../Menu/index.html">Steaks</a></li>
                         <br>
-                        <li><a href="#">Burgers</a></li>
+                        <li><a href="../BurgerMenu/index.html">Burgers</a></li>
                         <br>
-                        <li><a href="#">Coctails</a></li>
+                        <li><a href="../Menu/index.html">Coctails</a></li>
                         <br>
-                        <li><a href="#">Bar B Q</a></li>
+                        <li><a href="../Menu/index.html">Bar B Q</a></li>
                         <br>
-                        <li><a href="#">Desserts</a></li>
+                        <li><a href="../Menu/index.html">Desserts</a></li>
                     </ul>
                 </div>
                 <div class="footer-col">
@@ -58,7 +58,7 @@ class CustomFooter extends HTMLElement {
             </div>
 
         </div>
-        <img src="../../imgs/Container2.png" alt="" class="containerIMG2">
+        <img src="../../Assets/imgs/Container2.png" alt="" class="containerIMG2">
         </div>
         <div class="bottom-div"></div>
 

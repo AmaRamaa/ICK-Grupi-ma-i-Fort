@@ -1,5 +1,5 @@
 .HeaderSectionFirst {
-    background-image: url(../../imgs/Section\ \(3\).png);
+    background-image: url(../../Assets/imgs/Section\ \(3\).png);
     background-color: #d225253d;
     height: 980px;
     padding: 250px;
@@ -35,7 +35,7 @@
     margin: 260px 0px 260px 0px;
     height: 673px;
     padding: 0px 120px 0px 120px;
-    background-image: url(../../imgs/Section\ \(34\).png);
+    background-image: url(../../Assets/imgs/Section\ \(34\).png);
 }
 
 .SpacingDiv{
@@ -157,7 +157,7 @@ button {
 }
 
 .UnderMenuFirst {
-    background-image: url(../../imgs/menuBackground.png);
+    background-image: url(../../Assets/imgs/menuBackground.png);
     height: 451px;
     padding: 20px;
     display: flex;
@@ -512,3 +512,86 @@ img #popular-fast-foods .item .info .price {
     gap: 250px;
     margin: 120px;
   }
+
+  @media screen and (max-width: 1500px) and (min-width: 900px) {
+    .UnderMenuFirst{
+        overflow: scroll;
+    }
+    .gridOfferLayout{
+        display: none;
+    }
+    .mobileImg{
+        display: none;
+    }
+    .DeliveryInfoDiv{
+        flex-direction: column;
+    }
+    .BestSellingSection{
+        margin: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .HeaderDivFirst{
+        width: auto;
+    }
+    .items{
+        justify-content: center;
+        align-items: center;
+    }
+    .SpacingDiv{
+        display: none;
+    }
+    .SVGlogo{
+        display: block;
+    }
+}
+
+
+@media screen and (max-width: 900px) and (min-width: 500px) {  
+    .UnderMenuFirst{
+        overflow: scroll;
+    }
+    .gridOfferLayout{
+        display: none;
+    }
+    .mobileImg{
+        display: none;
+    }
+    .DeliveryInfoDiv{
+        flex-direction: column;
+    }
+    .DeliverySection{
+        padding: 0px;
+    }
+    .BestSellingSection{
+        margin: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .clickableCard{
+        display: none;
+    }
+    .H1General{
+        font-size: 35px;
+    }
+    .HeaderDivFirst{
+        width: auto;
+    }
+    .items{
+        justify-content: center;
+        align-items: center;
+    }
+    .SpacingDiv{
+        display: none;
+    }
+    .PGeneral{
+        display: none;
+    }
+    .SVGlogo{
+        display: block;
+    }
+}

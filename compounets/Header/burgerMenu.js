@@ -2,16 +2,11 @@ const burgerMenu = document.getElementById("burgerMenuDropDown");
 const navList = document.getElementById("navLEFT");
 
 const burgerMenuIsClicked = () => {
-    let burgerMenu = document.getElementById("burgerMenuDropDown");
-    let navList = document.getElementById("navLEFT");
-    if (burgerMenu.style.display == "none") {
-        console.log(true)
-        burgerMenu.style.display = "flex";
-        navList.style.display = "flex";
+    // Toggle visibility by adding/removing a class
+    burgerMenu.classList.toggle("visible");
+    navList.classList.toggle("visible");
 
-    } else {
-        console.log(false)
-        burgerMenu.style.display = "none";
-        navList.style.display = "none";
-    }
-}
+    // Optional: Log current state for debugging
+    console.log("Burger Menu Visible:", burgerMenu.classList.contains("visible"));
+    console.log("Nav List Visible:", navList.classList.contains("visible"));
+};

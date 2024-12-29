@@ -29,7 +29,7 @@ img {
 }
 
 #banner {
-  background-image: url("./images/Section.png");
+  background-image: url("../../Assets/imgs/Section.png");
   width: 100%;
   height: auto;
   display: grid;
@@ -140,6 +140,7 @@ button i {
   gap: 19px;
   background: #fff;
   border-radius: 14px;
+  
 }
 
 #popular-food .items .item .img-wrapper {
@@ -397,4 +398,71 @@ button i {
   font-size: 20px;
   line-height: 26px;
   color: #212121;
+}
+
+@media screen and (max-width: 1200px) and (min-width: 900px) {
+  .burgerImg{
+    display: none;
+  }
+  #banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .popular-food{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .itemMobile{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .item{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .SVGlogo{
+    display: block;
+  }
+}
+
+
+@media screen and (max-width: 900px) and (min-width: 500px) {
+
+  .burgerImg{
+    display: none;  
+  }
+  #banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .itemMobile{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .item{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .SVGlogo{
+        display: block;
+    }
+
 }
