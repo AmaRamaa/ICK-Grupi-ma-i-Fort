@@ -398,3 +398,35 @@ button i {
   line-height: 26px;
   color: #212121;
 }
+
+@media screen and (max-width: 1200px) and (min-width: 900px) {
+  .burgerImg{
+    display: none;
+  }
+  #banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .popular-food{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+}
+
+
+@media screen and (max-width: 900px) {
+
+  .burgerImg{
+    display: none;
+  }
+  #banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+}

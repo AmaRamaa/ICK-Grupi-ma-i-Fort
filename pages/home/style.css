@@ -55,13 +55,11 @@
 }
 
 .steaksHome {
-    position: relative;
     display: flex;
-    width: 300px;
     height: 300px;
-    gap: 120px;
-    justify-content: flex-start;
-    margin-right: 200px;
+    gap: 100px;
+    justify-content: center;
+    align-self: flex-end;
 
 }
 
@@ -199,4 +197,17 @@
 .oriDiv p {
     font-weight: 900;
     color: red;
+}
+
+
+@media screen and (max-width: 1200px) and (min-width: 900px) {
+    img{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    img{
+        display: none;
+    }
 }

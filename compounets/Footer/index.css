@@ -147,15 +147,28 @@ ul {
   justify-content: flex-end;
 }
 
-.footer-col h3{
+.footer-col h3 {
   text-decoration: underline orange 4px;
 }
 
-@media screen and (max-width: 1200px){
-  .footer-col1{
+@media screen and (max-width: 1200px) {
+  .footer-col1 {
     display: none;
   }
-  img{
+
+  .containerIMG1 {
     display: none;
+  }
+
+  .containerIMG2 {
+    display: none;
+  }
+
+  .back-end {
+    display: none;
+  }
+
+  .row {
+    justify-content: none;
   }
 }
