@@ -102,7 +102,7 @@
 .photos {
     width: auto;
     height: 600px;
-    justify-content: space-between;
+    
 }
 
 
@@ -124,6 +124,11 @@
     width: max-content;
     border-radius: 15px;
 }
+
+.pyetsor p{
+    color: red;
+}
+
 
 .fixedDiv{
     display: flex;
