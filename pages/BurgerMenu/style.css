@@ -140,6 +140,7 @@ button i {
   gap: 19px;
   background: #fff;
   border-radius: 14px;
+  
 }
 
 #popular-food .items .item .img-wrapper {
@@ -415,18 +416,46 @@ button i {
     align-items: center;
     flex-direction: column;
   }
+  .itemMobile{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .item{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
 }
 
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 900px) and (min-width: 500px) {
 
   .burgerImg{
-    display: none;
+    display: none;  
   }
   #banner{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+  }
+  .itemMobile{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .item{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 }
