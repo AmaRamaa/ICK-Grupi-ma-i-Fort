@@ -173,8 +173,8 @@
     height: 540px;
     margin-left: 34%;
     margin-top: -27%;
-    margin-bottom: 450px;
-    background-color: rgb(233, 221, 221);
+    margin-bottom: 40%;
+   background-color: gainsboro;
     border-radius: 43px;
     text-align: center;
     align-items: flex-start;
@@ -183,15 +183,16 @@
 }
 
 .pjata {
-    margin-top: 940px;
+    margin-top: 63%;
     size: 13pc;
-    margin-left: 140px;
+    margin-left: 15%;
 }
 
 
 
 .pyetsor h1 {
-    margin-left: -230px;
+    margin-left: -50%;
+    margin-top: 15px;
 
 }
 
@@ -204,7 +205,6 @@
 
 
 .pyetsor p {
-    margin-left:0%;
     font-weight: 900;
     color: #E63D45;
     font-size: 150%;
@@ -267,7 +267,7 @@
     width: 1900px;
     display: flex;
     height: 840px;
-    margin-bottom: 100px;
+    margin-bottom: 10%;
     margin-left: 1%;
 
 }
