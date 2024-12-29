@@ -2,26 +2,27 @@
     font-family: "MyCustomFont";
     src: url("https://online-fonts.com/fonts/pizza-hut-font-2020");
 }
-*{
+
+* {
     font-family: "MyCustomFont", sans-serif;
     padding: 0px;
     margin: 0px;
 }
 
-header{
+header {
     position: sticky;
     top: 0;
     z-index: 100;
 }
 
-.SVGtext{
-    color:#EE3A43;
+.SVGtext {
+    color: #EE3A43;
     font-style: italic;
     font-weight: bold;
     /* font-variant: small-caps; */
 }
 
-.headerDIV{ 
+.headerDIV {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -31,11 +32,11 @@ header{
     background-color: white;
 }
 
-.SVGdiv{
+.SVGdiv {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center ;
+    align-items: center;
 }
 
 .navBAR {
@@ -60,7 +61,7 @@ header{
     color: black;
     font-weight: 500;
 }
- 
+
 .navLEFT a:hover {
     color: #EE3A43;
 }
@@ -124,8 +125,8 @@ header{
 }
 
 
-.burgerMenuDropDown{
-    background-color: white ;
+.burgerMenuDropDown {
+    background-color: white;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -134,41 +135,70 @@ header{
 
 
 
+
+
 @media screen and (max-width: 2500px) {
-    .burgerMenuDropDown{
+    .burgerMenuDropDown {
         display: none;
     }
 }
 
-@media screen and (max-width: 1200px) and (min-width: 900px)  {
-    .btn{
+@media screen and (max-width: 1200px) and (min-width: 900px) {
+    .btn {
         display: none;
     }
-    .menuICON{
+
+    .menuICON {
         display: flex;
     }
-    .cartCOUNT{
-        display: none;
-    }
-    .navLEFT{
-        display: none;
-        flex-direction: column;
-    }
-}
 
-@media screen and (max-width: 900px) {
-    .cartCOUNT{
+    .cartCOUNT {
         display: none;
     }
-    .navLEFT{
+
+    .navLEFT {
         display: none;
         flex-direction: column;
         gap: 15px;
     }
-    .btn{
+
+    #burgerMenuDropDown,
+    #navLEFT {
         display: none;
-    }   
-    .menuICON{
+    }
+
+    #burgerMenuDropDown.visible,
+    #navLEFT.visible {
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .cartCOUNT {
+        display: none;
+    }
+
+    .navLEFT {
+        display: none;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    #burgerMenuDropDown,
+    #navLEFT {
+        display: none;
+    }
+
+    #burgerMenuDropDown.visible,
+    #navLEFT.visible {
+        display: flex;
+    }
+
+    .btn {
+        display: none;
+    }
+
+    .menuICON {
         display: flex;
     }
 }
