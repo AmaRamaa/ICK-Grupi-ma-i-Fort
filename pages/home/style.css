@@ -1,0 +1,202 @@
+.headerSectionInfo{
+    background-image: url(../../Assets/imgs/food.png);
+    background-size: cover;
+    height: 980px;
+    padding: 250px;
+}
+
+.homeInvest{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 35px;
+    color: white;
+    font-size: 15px;
+    width: 550px;
+}
+
+.homeInvest h1{
+    font-size: 5em;
+}
+
+.homeInvest p{
+    font-size: 2em;
+}
+
+
+.containerHome {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    width: max-content;
+    margin: 120px;
+    height: 800px;
+    padding: 20px;
+    background-color: white;
+}
+
+.tittle h1 {
+    color: black;
+    font-size: 50px;
+    margin-left: 280px;
+    margin-top: 70px;
+    font-weight: 800;
+    margin-bottom: 70px;
+}
+
+.tittle {
+    display: flex;
+    flex-direction: column;
+    width: 1300px;
+    height: 500px;
+}
+
+.steaksHome {
+    position: relative;
+    display: flex;
+    width: 300px;
+    height: 300px;
+    gap: 120px;
+    justify-content: flex-start;
+    margin-right: 200px;
+
+}
+
+
+.areahome {
+    gap: 45px;
+    width: 500px;
+    height: 400px;
+    position: absolute;
+    bottom: 33%;
+    left: 60%;
+
+
+}
+
+.areahome h3 {
+    bottom: 24%;
+    margin-left: 50px;
+
+}
+
+
+.areahome p {
+    margin-left: 50px;
+}
+
+.photos {
+    width: auto;
+    height: 600px;
+    justify-content: space-between;
+}
+
+
+.paragraf {
+    color: red;
+    font-weight: 900;
+    margin-left: 280px;
+    margin-top: 70px;
+}
+
+.pyetsor{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: flex;
+    flex-direction: column;
+    gap: 15px;
+    background-color: grey;
+    width: max-content;
+    border-radius: 15px;
+}
+
+.FixesAmarDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    position:relative;
+}
+
+.pjata{
+    scale: 60%;
+    position: absolute;
+    bottom: 100px;
+    right: 58em;
+}
+
+.chefs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 150px;
+    margin: 120px;
+}
+
+.name{
+    justify-content: center;
+    text-align: center;
+    margin-top: 9%;
+    margin-right: 50px;
+    font-size: 200%;
+    text-decoration: solid;
+    background-color: rgb(220, 89, 89);
+    border-radius: 45px;
+    width: 1000px;
+    height: 40px;
+    text-decoration: underline;
+    margin-bottom: 20px;
+}
+
+.app{
+    margin: 120px;
+}
+
+.phone{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+.oriDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 30px;
+}
+
+.btnG {
+    display: inline-block;
+    text-decoration: none;
+    padding: 14px 40px;
+    color: white;
+    font-size: 20px;
+    margin-right: 47px;
+    border-radius: 15px;
+    background-color: #E63D45;
+    margin-top: 40px;
+    text-decoration-line: none;
+}
+
+.btnP {
+    display: inline-block;
+    text-decoration: none;
+    padding: 14px 40px;
+    color: white;
+    font-size: 20px;
+    border-radius: 15px;
+    background-color: black;
+    margin-top: 40px;
+    text-decoration-line: none;
+    margin-left: 8px;
+}
+
+.oriDiv p {
+    font-weight: 900;
+    color: red;
+}

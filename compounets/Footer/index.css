@@ -90,7 +90,7 @@ ul {
   text-decoration: none;
   display: inline-block;
   border-radius: 12px;
-  width: 270px;
+  width: max-content;
 }
 
 .footer-col1 h3 {
@@ -151,8 +151,11 @@ ul {
   text-decoration: underline orange 4px;
 }
 
-@media screen and (max-width: 850px){
+@media screen and (max-width: 1200px){
   .footer-col1{
+    display: none;
+  }
+  img{
     display: none;
   }
 }
